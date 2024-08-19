@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(115, 115, 115);
+  }
+  
+  .content {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+  }
+  h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: red;
+  }
+  
+  .inputField {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+  }
+  
+  button{
+    height: 40px;
+    background-color: rgb(247, 100, 8);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: rgb(255, 47, 0);
+  }
+  
+  #totamt {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
